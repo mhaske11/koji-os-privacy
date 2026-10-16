@@ -14,11 +14,22 @@
 <body>
 <p><a href="index.html">Koji OS</a></p>
 <h1>Privacy policy</h1>
-<p class="sub">Last updated 16 October 2026</p>
+<p class="sub">Last updated 16 October 2026 (covers all connected services)</p>
 
 <h2>Who uses Koji OS</h2>
 <p>Koji OS is a personal dashboard used by one person, its owner, on his own computer. It is not offered to the public
   and has no other users.</p>
+
+<h2>What data it accesses</h2>
+<p>Only after the owner approves each connection on the provider's own page, Koji OS reads (never writes):</p>
+<ul>
+  <li><b>Bank and card accounts, through Plaid:</b> balances and transactions, to show spending, card use and net worth.
+    Koji OS cannot move money.</li>
+  <li><b>Robinhood:</b> accounts, positions, quotes, orders and realized gains, to show the owner's portfolio.
+    Koji OS cannot place, change or cancel orders.</li>
+  <li><b>Apple iCloud calendars and calendar links:</b> upcoming events, to show the owner's schedule.</li>
+  <li><b>Google</b>, as below.</li>
+</ul>
 
 <h2>What Google data it accesses</h2>
 <p>With the owner's permission, Koji OS uses these read-only Google permissions:</p>
@@ -31,7 +42,9 @@
 <h2>How the data is used and stored</h2>
 <ul>
   <li>Data is used only to display the owner's own information to him.</li>
-  <li>It is stored only on the owner's own computer. Access tokens are stored encrypted.</li>
+  <li>It is stored only on the owner's own computer. Access tokens are stored encrypted; data travels only over
+    encrypted connections.</li>
+  <li>Transactions are kept for up to 2 years and then deleted; disconnecting a service deletes its data and access.</li>
   <li>It is never sold, shared with third parties, used for advertising, or used to train AI models.</li>
 </ul>
 
@@ -41,9 +54,9 @@
   including the Limited Use requirements.</p>
 
 <h2>Removing access</h2>
-<p>The owner can disconnect Google from Koji OS at any time, or revoke access at
-  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Disconnecting deletes the
-  stored tokens.</p>
+<p>The owner can disconnect any service from Koji OS at any time, which deletes its stored tokens and data. Google
+  access can also be revoked at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+  and bank access through <a href="https://my.plaid.com">my.plaid.com</a>.</p>
 
 <h2>Contact</h2>
 <p>mikeanthonyhaskell@gmail.com</p>
